@@ -1,4 +1,4 @@
-def mergeSortedArrays(array1, array2):
+def mergeUnsortedArrays(array1, array2):
   bigArray = array1 + array2
 
   for i in range(len(bigArray)):
@@ -11,4 +11,4 @@ def mergeSortedArrays(array1, array2):
       
   return bigArray
 
-print(mergeSortedArrays([0,3,4,5,31], [4,6,32]))
+print(mergeUnsortedArrays([0,3,4,5,31], [4,6,32]))

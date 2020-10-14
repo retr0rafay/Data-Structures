@@ -11,4 +11,4 @@ def mergeUnsortedArrays(array1, array2):
       
   return bigArray
 
-print(mergeUnsortedArrays([0,3,4,5,31], [4,6,32]))
+print(mergeUnsortedArrays([4,0,3,31,5], [4,32,6]))
